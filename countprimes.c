@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <stdbool.h>
-
 #define MAX_CONST 25000 // Default upper limit
 
 int processes; // Number of processes
