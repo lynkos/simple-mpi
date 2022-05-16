@@ -1,16 +1,3 @@
-/*
-* Name: Kiran Brahmatewari
-* PID: 5467937
-*
-* I affirm that I wrote this program myself without any help
-* from any other people or sources from the internet.
-*
-* countprimes.c counts the number of prime numbers between 1 to MAX_CONST inclusive.
-* Each process (1) tests its share of the cases and (2) keeps a running total;
-* before it finishes, it prints out (1) its ID number and (2) count of primes that it found.
-* The master process ends after printing (1) the total number of primes between 1 and MAX_CONST
-* inclusive, and (2) the total amount of time taken to find all the primes.
-*/
 #include <mpi.h>
 #include <stdlib.h>
 #include <stdio.h>
